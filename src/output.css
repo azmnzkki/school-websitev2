@@ -932,6 +932,42 @@ video {
   height: 100%;
 }
 
+.h-1\/4 {
+  height: 25%;
+}
+
+.h-1\/2 {
+  height: 50%;
+}
+
+.h-\[\] {
+  height: ;
+}
+
+.h-\[366px\] {
+  height: 366px;
+}
+
+.h-\[266px\] {
+  height: 266px;
+}
+
+.h-\[2px\] {
+  height: 2px;
+}
+
+.h-\[260px\] {
+  height: 260px;
+}
+
+.h-\[220px\] {
+  height: 220px;
+}
+
+.h-\[240px\] {
+  height: 240px;
+}
+
 .w-10 {
   width: 2.5rem;
 }
@@ -2014,28 +2050,52 @@ video {
   --tw-bg-opacity: 0.95;
 }
 
-.bg-\[url\(\'\/images\/devfest\.png\'\)\] {
-  background-image: url('/images/devfest.png');
+.bg-\[url\(\'\.\/\/images\/devfest\.png\'\)\] {
+  background-image: url('.//images/devfest.png');
 }
 
-.bg-\[url\(\'\/images\/kunjungantaruna\.png\'\)\] {
-  background-image: url('/images/kunjungantaruna.png');
+.bg-\[url\(\'\.\/\/images\/kunjungantaruna\.png\'\)\] {
+  background-image: url('.//images/kunjungantaruna.png');
 }
 
-.bg-\[url\(\'\/images\/lombaagustus\.png\'\)\] {
-  background-image: url('/images/lombaagustus.png');
+.bg-\[url\(\'\.\/\/images\/lombaagustus\.png\'\)\] {
+  background-image: url('.//images/lombaagustus.png');
 }
 
-.bg-\[url\(\'\/images\/longmarch\.png\'\)\] {
-  background-image: url('/images/longmarch.png');
+.bg-\[url\(\'\.\/\/images\/longmarch\.png\'\)\] {
+  background-image: url('.//images/longmarch.png');
 }
 
-.bg-\[url\(\'\/images\/pelatihandamkar\.png\'\)\] {
-  background-image: url('/images/pelatihandamkar.png');
+.bg-\[url\(\'\.\/\/images\/pelatihandamkar\.png\'\)\] {
+  background-image: url('.//images/pelatihandamkar.png');
 }
 
-.bg-\[url\(\'\/images\/susursungai\.png\'\)\] {
-  background-image: url('/images/susursungai.png');
+.bg-\[url\(\'\.\/\/images\/susursungai\.png\'\)\] {
+  background-image: url('.//images/susursungai.png');
+}
+
+.bg-\[url\(\'\.\/images\/susursungai\.png\'\)\] {
+  background-image: url('./images/susursungai.png');
+}
+
+.bg-\[url\(\'\.\/images\/kunjungantaruna\.png\'\)\] {
+  background-image: url('./images/kunjungantaruna.png');
+}
+
+.bg-\[url\(\'\.\/images\/pelatihandamkar\.png\'\)\] {
+  background-image: url('./images/pelatihandamkar.png');
+}
+
+.bg-\[url\(\'\.\/images\/lombaagustus\.png\'\)\] {
+  background-image: url('./images/lombaagustus.png');
+}
+
+.bg-\[url\(\'\.\/images\/longmarch\.png\'\)\] {
+  background-image: url('./images/longmarch.png');
+}
+
+.bg-\[url\(\'\.\/images\/devfest\.png\'\)\] {
+  background-image: url('./images/devfest.png');
 }
 
 .decoration-slice {
