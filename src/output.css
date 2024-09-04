@@ -2018,28 +2018,28 @@ video {
   --tw-bg-opacity: 0.95;
 }
 
-.bg-\[url\(\'\.\/images\/devfest\.png\'\)\] {
-  background-image: url('./images/devfest.png');
+.bg-\[url\(\'\.\/\.\.\/images\/devfest\.png\'\)\] {
+  background-image: url('./../images/devfest.png');
 }
 
-.bg-\[url\(\'\.\/images\/kunjungantaruna\.png\'\)\] {
-  background-image: url('./images/kunjungantaruna.png');
+.bg-\[url\(\'\.\/\.\.\/images\/kunjungantaruna\.png\'\)\] {
+  background-image: url('./../images/kunjungantaruna.png');
 }
 
-.bg-\[url\(\'\.\/images\/lombaagustus\.png\'\)\] {
-  background-image: url('./images/lombaagustus.png');
+.bg-\[url\(\'\.\/\.\.\/images\/lombaagustus\.png\'\)\] {
+  background-image: url('./../images/lombaagustus.png');
 }
 
-.bg-\[url\(\'\.\/images\/longmarch\.png\'\)\] {
-  background-image: url('./images/longmarch.png');
+.bg-\[url\(\'\.\/\.\.\/images\/longmarch\.png\'\)\] {
+  background-image: url('./../images/longmarch.png');
 }
 
-.bg-\[url\(\'\.\/images\/pelatihandamkar\.png\'\)\] {
-  background-image: url('./images/pelatihandamkar.png');
+.bg-\[url\(\'\.\/\.\.\/images\/pelatihandamkar\.png\'\)\] {
+  background-image: url('./../images/pelatihandamkar.png');
 }
 
-.bg-\[url\(\'\.\/images\/susursungai\.png\'\)\] {
-  background-image: url('./images/susursungai.png');
+.bg-\[url\(\'\.\/\.\.\/images\/susursungai\.png\'\)\] {
+  background-image: url('./../images/susursungai.png');
 }
 
 .decoration-slice {
