@@ -3,13 +3,12 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Profil</title>
     <link rel="stylesheet" href="src/output.css" />
-    <!-- GOOGLE FONT START -->
+    <!-- google font -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet" />
-    <!-- GOOGLE FONT END -->
 
     <!-- AOS -->
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
@@ -28,7 +27,7 @@
         </div>
         <div class="list gap-8 hidden md:flex">
           <ul class="flex gap-8">
-            <li><a href="#beranda" class="font-medium hover:text-sky-500 transition-all duration-300 ease-in-out">Beranda</a></li>
+            <li><a href="index.html" class="font-medium hover:text-sky-500 transition-all duration-300 ease-in-out">Beranda</a></li>
             <li><a href="partner.html" class="font-medium hover:text-sky-500 transition-all duration-300 ease-in-out">Partner</a></li>
             <li><a href="profil.html" class="font-medium hover:text-sky-500 transition-all duration-300 ease-in-out">Profil</a></li>
             <li><a href="berita.html" class="font-medium hover:text-sky-500 transition-all duration-300 ease-in-out">Berita</a></li>
@@ -65,44 +64,6 @@
       </div>
     </aside>
 
-    <!-- hero section -->
-    <section id="beranda" class="w-full h-full bg-slate-800 flex justify-end text-white">
-      <div class="flex flex-col md:flex-row items-center">
-        <div class="md:w-1/2 p-10">
-          <div class="caption px-24">
-            <div class="bg-slate-800 w-fit py-2 px-4 rounded-full mb-6"><span class="text-sm">Hai! Students</span> <span class="ml-2">👋</span></div>
-            <h1 class="text-4xl font-bold mb-4 leading-normal">
-              Welcome to Website <br />
-              SMA TI HSI IDN <br />
-              Purworejo
-            </h1>
-            <p class="text-gray-400">Sekolah Yang mencetak Santri penerus bangsa Yang mampu bersaing di Kancah Internasional</p>
-          </div>
-        </div>
-
-        <div class="md:w-1/2 mt-24 overflow-hidden md:mt-0 h-fit max-w-2xl">
-          <img src="images/hero.png" class="w-full h-full object-cover scale-100 md:scale-100" />
-        </div>
-      </div>
-    </section>
-
-    <!-- company section -->
-    <section id="partner" class="w-full">
-      <div class="container mx-auto w-full px-4 py-14 flex">
-        <div class="content mx-auto">
-          <h3 class="text-xl text-slate-800 font-medium text-center">Partner Pendidikan</h3>
-
-          <div class="logo flex flex-wrap justify-center gap-24 mt-12" data-aos="fade-up" data-aos-duration="1000">
-            <img src="images/idn.png" alt="" class="w-52 h-fit" data-aos="fade-up" data-aos-duration="1000" />
-            <img src="images/hsi.png" alt="" class="w-52 h-fit" data-aos="fade-up" data-aos-duration="1000" />
-            <img src="images/darullughah.png" alt="" class="w-56 h-fit" data-aos="fade-up" data-aos-duration="1000" />
-            <img src="images/yasallam.png" alt="" class="w-56 h-fit" data-aos="fade-up" data-aos-duration="1000" />
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- youtube content -->
     <section id="profil" class="w-full mt-32">
       <div class="container w-full mx-auto px-14">
         <div class="first-content w-full flex-col justify-center md:flex md:flex-row md:justify-between md:items-center">
@@ -131,145 +92,6 @@
           </div>
           <div class="thumbnail" data-aos="fade-right" data-aos-offset="200" data-aos-easing="ease-in-sine" data-aos-duration="800">
             <img src="images/thumbnail2.png" alt="" class="w-full" />
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- Section Berita -->
-    <section id="berita" class="mt-32 w-full">
-      <div class="container mx-auto">
-        <div class="content px-6 py-12 mx-auto">
-          <div class="title flex flex-col justify-center items-center text-center gap-3" data-aos="fade-up" data-aos-anchor-placement="top-bottom">
-            <h2 class="font-bold text-3xl">Berita</h2>
-            <p class="text-slate-400">Berikut Adalah Berita Seputar SMA IT HSI IDN Purworejo</p>
-          </div>
-          <div class="container-card flex flex-wrap gap-4 justify-center mt-10">
-            <div class="card bg-[url('./../images/susursungai.png')] bg-center bg-cover bg-no-repeat w-[397px] h-[462px] relative" data-aos="fade-up" data-aos-anchor-placement="center-bottom">
-              <div class="caption backdrop-blur-sm bg-[#1b1b1b6b] h-[190px] w-full px-6 py-8 absolute bottom-0">
-                <h2 class="text-2xl font-bold text-white">Kegiatan Susur Sungai</h2>
-                <p class="text-white text-sm font-light mt-3">Ini adalah Kegiatan santri ketika Susur Sungai untuk melatih ketangguhan santri ketika berada di alam</p>
-                <div class="caption-bottom flex justify-between mt-5">
-                  <p class="font-extralight text-sm text-white">31 Agustus 2024</p>
-                  <a href="susursungai.html"><p class="text-sm text-white hover:text-sky-300 transition-all duration-300 ease-in-out">Baca Selengkapnya</p></a>
-                </div>
-              </div>
-            </div>
-            <div class="card bg-[url('./../images/kunjungantaruna.png')] bg-center bg-cover bg-no-repeat w-[397px] h-[462px] relative" data-aos="fade-up" data-aos-anchor-placement="center-bottom">
-              <div class="caption backdrop-blur-sm bg-[#1b1b1b6b] h-[190px] w-full px-6 py-8 absolute bottom-0">
-                <h2 class="text-2xl font-bold text-white">Kunjungan Taruna Akpol</h2>
-                <p class="text-white text-sm font-light mt-3">Kunjungan Dari kakak kakak taruna Akpol di SMA TI HSI IDN, guna memberikan semangat kepada santri</p>
-                <div class="caption-bottom flex justify-between mt-5">
-                  <p class="font-extralight text-sm text-white">24 Juni 2024</p>
-                  <a href="kunjungantaruna.html"><p class="text-sm text-white hover:text-sky-300 transition-all duration-300 ease-in-out">Baca Selengkapnya</p></a>
-                </div>
-              </div>
-            </div>
-            <div class="card bg-[url('./../images/pelatihandamkar.png')] bg-center bg-cover bg-no-repeat w-[397px] h-[462px] relative" data-aos="fade-up" data-aos-anchor-placement="center-bottom">
-              <div class="caption backdrop-blur-sm bg-[#1b1b1b6b] h-[190px] w-full px-6 py-8 absolute bottom-0">
-                <h2 class="text-2xl font-bold text-white">Pelatihan Damkar</h2>
-                <p class="text-white text-sm font-light mt-3">SMA TI HSI IDN mengadakan pelatihan bersama damkar untuk mitigasi bencana kebakaran dan belajar menggunakan alat pemadam kebakaran</p>
-                <div class="caption-bottom flex justify-between mt-5">
-                  <p class="font-extralight text-sm text-white">26 Juni 2024</p>
-                  <a href="damkar.html"><p class="text-sm text-white hover:text-sky-300 transition-all duration-300 ease-in-out">Baca Selengkapnya</p></a>
-                </div>
-              </div>
-            </div>
-            <div class="card bg-[url('./../images/lombaagustus.png')] bg-center bg-cover bg-no-repeat w-[397px] h-[462px] relative" data-aos="fade-up" data-aos-anchor-placement="center-bottom">
-              <div class="caption backdrop-blur-sm bg-[#1b1b1b6b] h-[190px] w-full px-6 py-8 absolute bottom-0">
-                <h2 class="text-2xl font-bold text-white">Lomba Agustusan</h2>
-                <p class="text-white text-sm font-light mt-3">Para santri turut merayakan Hari kemerdekaan dengan mengadakan lomba di SMA IT HSI IDN yang di ikuti oleh para santri</p>
-                <div class="caption-bottom flex justify-between mt-5">
-                  <p class="font-extralight text-sm text-white">18 Agustus 2024</p>
-                  <a href=""><p class="text-sm text-white hover:text-sky-300 transition-all duration-300 ease-in-out">Baca Selengkapnya</p></a>
-                </div>
-              </div>
-            </div>
-            <div class="card bg-[url('./../images/longmarch.png')] bg-center bg-cover bg-no-repeat w-[397px] h-[462px] relative" data-aos="fade-up" data-aos-anchor-placement="center-bottom">
-              <div class="caption backdrop-blur-sm bg-[#1b1b1b6b] h-[190px] w-full px-6 py-8 absolute bottom-0">
-                <h2 class="text-2xl font-bold text-white">Long March</h2>
-                <p class="text-white text-sm font-light mt-3">Santri SMA IT HSI IDN berjalan sejauh 25km ke pantai dewaruci, dalam rangka kegiatan long march</p>
-                <div class="caption-bottom flex justify-between mt-5">
-                  <p class="font-extralight text-sm text-white">23 Desember 2023</p>
-                  <a href=""><p class="text-sm text-white hover:text-sky-300 transition-all duration-300 ease-in-out">Baca Selengkapnya</p></a>
-                </div>
-              </div>
-            </div>
-            <div class="card bg-[url('./../images/devfest.png')] bg-center bg-cover bg-no-repeat w-[397px] h-[462px] relative" data-aos="fade-up" data-aos-anchor-placement="center-bottom">
-              <div class="caption backdrop-blur-sm bg-[#1b1b1b6b] h-[190px] w-full px-6 py-8 absolute bottom-0">
-                <h2 class="text-2xl font-bold text-white">Devfest</h2>
-                <p class="text-white text-sm font-light mt-3">Santri SMA IT HSI IDN ikut berpastisipasi dalam acara devfest di jogjakarta yang diadakan langsung oleh Google developer Groups</p>
-                <div class="caption-bottom flex justify-between mt-5">
-                  <p class="font-extralight text-sm text-white">18 Desember 2023</p>
-                  <a href=""><p class="text-sm text-white hover:text-sky-300 transition-all duration-300 ease-in-out">Baca Selengkapnya</p></a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="button flex justify-center mt-12">
-            <button class="bg-slate-800 text-white px-6 py-2 rounded-full hover:text-sky-500 transition-all ease-in-out duration-500 hover:bg-slate-700 shadow-xl" data-aos="fade-up" data-aos-anchor-placement="center-bottom">
-              See More
-            </button>
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- Moivation section -->
-    <section id="about" class="w-full h-fit mt-32 bg-slate-800 text-white">
-      <div class="container w-full mx-auto">
-        <div class="content flex flex-col justify-center md:flex-row">
-          <div class="caption px-10 py-14 flex flex-col justify-center gap-6" data-aos="fade-right" data-aos-duration="1000">
-            <h2 class="font-light text-2xl">
-              "Sesungguhnya Kesulitan itu datangnya dari dosa <br />
-              maka seorang pendosa tidak pantas mengeluh atas kesulitanya"
-            </h2>
-            <p class="font-medium">Azman Zakki</p>
-            <p class="text-sm font-extralight">Santri SMA IT HSI IDN</p>
-          </div>
-
-          <div class="image">
-            <img src="images/me.png" alt="" class="w-full h-full" data-aos="fade-left" data-aos-duration="1000" />
-          </div>
-        </div>
-      </div>
-    </section>
-
-    <!-- galery section -->
-    <section id="gallery" class="mt-32 w-full">
-      <div class="container mx-auto w-full">
-        <div class="content mx-auto w-full px-4">
-          <h2 class="text-center font-bold text-slate-800 text-3xl" data-aos="fade-up" data-aos-anchor-placement="center-bottom">Gallery</h2>
-
-          <div class="contianer-gallery flex flex-wrap justify-center gap-4 mt-12">
-            <div class="gallery cursor-pointer" data-aos="fade-up" data-aos-anchor-placement="center-bottom">
-              <img src="images/gallery1.png" alt="" class="hover:scale-105 transition-all ease-in-out duration-500" />
-            </div>
-            <div class="gallery cursor-pointer" data-aos="fade-up" data-aos-anchor-placement="center-bottom">
-              <img src="images/gallery2.png" alt="" class="hover:scale-105 transition-all ease-in-out duration-500" />
-            </div>
-            <div class="gallery cursor-pointer" data-aos="fade-up" data-aos-anchor-placement="center-bottom" data-aos-duration="700">
-              <img src="images/gallery3.png" alt="" class="hover:scale-105 transition-all ease-in-out duration-500" />
-            </div>
-            <div class="gallery cursor-pointer" data-aos="fade-up" data-aos-anchor-placement="center-bottom" data-aos-duration="700">
-              <img src="images/gallery4.png" alt="" class="hover:scale-105 transition-all ease-in-out duration-500" />
-            </div>
-            <div class="gallery cursor-pointer" data-aos="fade-up" data-aos-anchor-placement="center-bottom" data-aos-duration="700">
-              <img src="images/gallery5.png" alt="" class="hover:scale-105 transition-all ease-in-out duration-500" />
-            </div>
-            <div class="gallery cursor-pointer" data-aos="fade-up" data-aos-anchor-placement="center-bottom" data-aos-duration="700">
-              <img src="images/gallery6.png" alt="" class="hover:scale-105 transition-all ease-in-out duration-500" />
-            </div>
-          </div>
-          <div class="button flex justify-center mt-12">
-            <button
-              class="bg-slate-800 text-white px-6 py-2 rounded-full hover:text-sky-500 hover:bg-slate-700 transition-all ease-in-out duration-500 shadow-xl"
-              data-aos="fade-up"
-              data-aos-anchor-placement="center-bottom"
-              data-aos-duration="700">
-              See More
-            </button>
           </div>
         </div>
       </div>
